@@ -1,0 +1,369 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2cdda063408ce324eafcccac7f1f37f8, type: 3}
+  m_Name: ItemConfigs
+  m_EditorClassIdentifier: 
+  Configs:
+  - Name: Letter
+    Type: 1
+    Sender: School office
+    Receiver: Professor's Home
+    Desc: "Back to school letter for a professor? \r\nOh no, obviously not for the
+      parent,  \r\nher son is starting his 3rd year."
+    Weight: 1
+    Icon: {fileID: 21300000, guid: 1bfc394f6cc0f3d418abf4c44897d430, type: 3}
+    Mesh: {fileID: 77547168962693218, guid: 29afa04994958e943afaa9d42bb8b857, type: 3}
+    Soundness: 2
+    Time: 0
+    Quest: 
+    Hunger: 0
+  - Name: 2 Letters & Badge
+    Type: 1
+    Sender: School Office
+    Receiver: New Prefect's Home
+    Desc: "Letters or a pair of friends from 5th year, \r\nwell known around the
+      school.\r\nA top student and a troublemaker, truly fascinating but reasonable
+      combination."
+    Weight: 3
+    Icon: {fileID: 21300000, guid: 71a13023b4d34914a891e0c0ce5566f6, type: 3}
+    Mesh: {fileID: 7406604808611398828, guid: ee94553dc4a582f4f9f9f7b394c964b0, type: 3}
+    Soundness: 2
+    Time: 0
+    Quest: 
+    Hunger: 0
+  - Name: Admission Letter
+    Type: 1
+    Sender: School Office
+    Receiver: New Student Home
+    Desc: A young and fresh one is about to begining her journey! better make sure
+      the letter gets to her family
+    Weight: 1
+    Icon: {fileID: 21300000, guid: 59499c3200d434e46a61e0f6122664d3, type: 3}
+    Mesh: {fileID: 5565214828198525152, guid: d7abdb1c1c866d6469faa9a92fdcf882, type: 3}
+    Soundness: 2
+    Time: 0
+    Quest: 
+    Hunger: 0
+  - Name: Cauldron
+    Type: 1
+    Sender: School Mailroom
+    Receiver: Potion Professor
+    Desc: "A customized commision with lots of specific requests,  \r\nlikely for
+      an experienced potion master"
+    Weight: 10
+    Icon: {fileID: 21300000, guid: 4550db261e7e60f4d9effbc46e88b235, type: 3}
+    Mesh: {fileID: 8961565988970268913, guid: fbacf1f6a28b6804fa5a417f5cbe36b2, type: 3}
+    Soundness: 10
+    Time: 4
+    Quest: 
+    Hunger: 0
+  - Name: Monocle
+    Type: 1
+    Sender: School Mailroom
+    Receiver: Librarian
+    Desc: "An vintage spectacle, enchanted and repaired as new, \r\nuseful when doing
+      lots of academic studies and reading"
+    Weight: 2
+    Icon: {fileID: 21300000, guid: 508dfd008f97de64692a4d9953d4b3cf, type: 3}
+    Mesh: {fileID: 2875893181275744779, guid: e8e887935f8b1ed418e94da926b4322b, type: 3}
+    Soundness: 4
+    Time: 4
+    Quest: 
+    Hunger: 0
+  - Name: School Robe
+    Type: 1
+    Sender: School Mailroom
+    Receiver: A Clumsy Student
+    Desc: "A clumsy student to be needing  a new robe at this time of the year, 
+      \r\n they must be freezing! better deliver as soon as possible"
+    Weight: 2
+    Icon: {fileID: 21300000, guid: 460ce5ab37fc1a64aa0629bb412857e5, type: 3}
+    Mesh: {fileID: 2312525011796857711, guid: de63e1d6ff5b006499812f33cdea96da, type: 3}
+    Soundness: 4
+    Time: 4
+    Quest: 
+    Hunger: 0
+  - Name: Special Note
+    Type: 1
+    Sender: Librarian
+    Receiver: Astrologer
+    Desc: "Dedicated to the one at top of astology tower, \r\ndo they always watch
+      over the school?"
+    Weight: 1
+    Icon: {fileID: 21300000, guid: d951279624f13a141a7774b015239911, type: 3}
+    Mesh: {fileID: 5874557307707363401, guid: d40ce1fa7f93c48458c490ab71768b41, type: 3}
+    Soundness: 1
+    Time: 4
+    Quest: 
+    Hunger: 0
+  - Name: Roll of Parchment
+    Type: 1
+    Sender: Professor's Office
+    Receiver: Ancient Runes Classroom
+    Desc: Good thing another professor noticed the forgotten parchment, or the ancient
+      rune exam wouldn't have to be delayed
+    Weight: 2
+    Icon: {fileID: 21300000, guid: 76fba350c470485479d58e64b280ba14, type: 3}
+    Mesh: {fileID: 8290899157416605047, guid: d12d25970453ddb4db53c4ce9d95ca16, type: 3}
+    Soundness: 3
+    Time: 2
+    Quest: 
+    Hunger: 0
+  - Name: Invisible Ink
+    Type: 1
+    Sender: School Mailroom
+    Receiver: Dormitory / Professor's Office
+    Desc: "Such delicate and concealed package with no name but a dorm room number
+      \r\nyou recall the logo to be a invisibility ink "
+    Weight: 4
+    Icon: {fileID: 21300000, guid: 91cebb742d1226446bb5944772a4f2be, type: 3}
+    Mesh: {fileID: 2938750227446070762, guid: 925f769388324044791d95d3a6df7225, type: 3}
+    Soundness: 5
+    Time: 0
+    Quest: 
+    Hunger: 0
+  - Name: Feather Quill
+    Type: 1
+    Sender: School Mailroom
+    Receiver: Alchemy Classroom
+    Desc: 'one of the lightest item you''ve ever encountnered, might loose it to
+      the wind if it''s carries alone. dedicated for a forgetful student.
+
+      Maybe
+      you could gift your feather to a friend for a quill too!'
+    Weight: 0.5
+    Icon: {fileID: 21300000, guid: 526c4d1cae503c644a7453b1b1217759, type: 3}
+    Mesh: {fileID: 875865156805610685, guid: 66b22127b968ae94ebb6cfba17faf881, type: 3}
+    Soundness: 4
+    Time: 2
+    Quest: 
+    Hunger: 0
+  - Name: Large Sock
+    Type: 1
+    Sender: School Mailroom
+    Receiver: Under the Christmas Tree
+    Desc: An extraordinarily large sock, you suspect it to be for a giant if not
+      for Christmas. Or perhaps local Santa is a giant
+    Weight: 3
+    Icon: {fileID: 21300000, guid: 5570435ee2547514786d8a2799b65b43, type: 3}
+    Mesh: {fileID: 5318341322924732044, guid: 7957ff38d15a6274090932917bc481bc, type: 3}
+    Soundness: 5
+    Time: 5
+    Quest: 
+    Hunger: 0
+  - Name: Tableware
+    Type: 1
+    Sender: School Mailroom
+    Receiver: Kitchen
+    Desc: 'The kitchen! wonder what they are preparing for the dinner feast! '
+    Weight: 4
+    Icon: {fileID: 21300000, guid: 8ca923a839d231545af9f9bba5f04206, type: 3}
+    Mesh: {fileID: 5955013773163201379, guid: 742c25da13e10794b94cf5fdb21868df, type: 3}
+    Soundness: 8
+    Time: 1
+    Quest: 
+    Hunger: 0
+  - Name: Christmas Orb
+    Type: 1
+    Sender: School Mailroom
+    Receiver: Christmas Tree
+    Desc: Shiny and glistening like a snow flake, should belong to a well decorated
+      and festive tree!
+    Weight: 3
+    Icon: {fileID: 21300000, guid: 688f455261e63874bb3b39929c412177, type: 3}
+    Mesh: {fileID: 7558503255139892413, guid: a2e986bdec8380a4a8f0a892f617f649, type: 3}
+    Soundness: 6
+    Time: 2
+    Quest: 
+    Hunger: 0
+  - Name: Icey Orb
+    Type: 1
+    Sender: Christmas Tree
+    Receiver: Christmas Tree2
+    Desc: Seems like this one doesnt fit here. Enchanted to cool down a tree with
+      flaming color
+    Weight: 6
+    Icon: {fileID: 21300000, guid: faa47e77c69a01840829190a456a878f, type: 3}
+    Mesh: {fileID: 7558503255139892413, guid: 760cd7c6ce2041043aae0c6cff186aaa, type: 3}
+    Soundness: 5
+    Time: 0
+    Quest: 
+    Hunger: 0
+  - Name: Gingerbread Man
+    Type: 2
+    Sender: Gingerbread
+    Receiver: Kitchen
+    Desc: "The gingerbread asks you to bring them to the kitchen,  \r\n you are a
+      little worried if as food they might be in danger there,  \r\n but this is
+      a magic school, things don't exactly follow normal logic"
+    Weight: 3
+    Icon: {fileID: 21300000, guid: 896ff188e8619364695b04ab4795265a, type: 3}
+    Mesh: {fileID: 4352916108764522932, guid: 793df30aac8634049bc72d9addf87d6b, type: 3}
+    Soundness: 4
+    Time: 0
+    Quest: 
+    Hunger: 0
+  - Name: Ginkgo Lynx
+    Type: 1
+    Sender: Grassy Field Hut
+    Receiver: Poacher's Hut / School CreatureCare
+    Desc: "The lynx is from the field site.  \r\n  \rThese creatures definitely belong
+      back at their home, but they are worth a lot. \r\nThey might have been in capture
+      for a long time and need nurturing,  \r\nMaybe, just maybe if someone could
+      give proper care."
+    Weight: 10
+    Icon: {fileID: 0}
+    Mesh: {fileID: 6840810901143345108, guid: dd85cf0314549a34ebe1d9347a0deebe, type: 3}
+    Soundness: 5
+    Time: 6
+    Quest: 
+    Hunger: 0
+  - Name: Singing Salamander
+    Type: 1
+    Sender: Echoing Cave
+    Receiver: Poaacher's Hut / School Game Keeper
+    Desc: "The salamander is known to be the most vocalized breed that harmonizes
+      with the tinkling river and echoing caves.\r\nThese creatures definitely belong
+      back at their home, but they are worth a lot. \r\n They might have been in
+      capture for a long time and need nurturing,  \r\nMaybe, just maybe if someone
+      could give proper care"
+    Weight: 3
+    Icon: {fileID: 0}
+    Mesh: {fileID: 8173519066359301798, guid: b00e45e06f0bd68468cbdcb388764a4a, type: 3}
+    Soundness: 4
+    Time: 6
+    Quest: 
+    Hunger: 0
+  - Name: Glowing Parakeet Egg
+    Type: 1
+    Sender: TreeTop Hut
+    Receiver: Poaacher's Hut / School Game Keeper
+    Desc: "The egg hasn't hatched yet, its mother must be agonized to find it missing. 
+      \r\nIt is unimaginable how they stole it from the tallest trees.  \nThese creatures
+      definitely belong back at their home, but they are worth a lot. \r\nThey might
+      have been in capture for a long time and need nurturing,  \r\nMaybe, just maybe
+      if someone could give proper care."
+    Weight: 5
+    Icon: {fileID: 0}
+    Mesh: {fileID: 3818074713297918388, guid: 559956977559f7d46b6e20bc8923b4bf, type: 3}
+    Soundness: 2
+    Time: 6
+    Quest: 
+    Hunger: 0
+  - Name: OpalEye Dragon Scale
+    Type: 1
+    Sender: 
+    Receiver: 
+    Desc: 
+    Weight: 1
+    Icon: {fileID: 0}
+    Mesh: {fileID: 6230106398698753882, guid: 33cf27a9714ffd141b9c940a66f3a267, type: 3}
+    Soundness: 9
+    Time: 4
+    Quest: 
+    Hunger: 0
+  - Name: LionRabbit Paw
+    Type: 1
+    Sender: 
+    Receiver: 
+    Desc: 
+    Weight: 2
+    Icon: {fileID: 0}
+    Mesh: {fileID: 0}
+    Soundness: 4
+    Time: 4
+    Quest: 
+    Hunger: 0
+  - Name: BoneFlute
+    Type: 0
+    Sender: 
+    Receiver: 
+    Desc: 
+    Weight: 1
+    Icon: {fileID: 0}
+    Mesh: {fileID: 0}
+    Soundness: 10
+    Time: 0
+    Quest: 
+    Hunger: 0
+  - Name: Herbology Book
+    Type: 1
+    Sender: 
+    Receiver: 
+    Desc: 
+    Weight: 6
+    Icon: {fileID: 21300000, guid: 114b4bd13dd4a0e48aa87fc83fb75d5f, type: 3}
+    Mesh: {fileID: 7272448265021138263, guid: 642ad18c511a6274cb49a59147d5ff39, type: 3}
+    Soundness: 4
+    Time: 0
+    Quest: 
+    Hunger: 0
+  - Name: Fresh Herb 1
+    Type: 1
+    Sender: 
+    Receiver: 
+    Desc: 
+    Weight: 5
+    Icon: {fileID: 21300000, guid: 3e1c6ef4a4628e04e9c00e0d108569dd, type: 3}
+    Mesh: {fileID: 9202821669088537491, guid: 24717dc3d6e612349ba3f45fc291acae, type: 3}
+    Soundness: 3
+    Time: 0
+    Quest: 
+    Hunger: 0
+  - Name: Fresh Herb 2
+    Type: 1
+    Sender: 
+    Receiver: 
+    Desc: 
+    Weight: 4
+    Icon: {fileID: 21300000, guid: 3e1c6ef4a4628e04e9c00e0d108569dd, type: 3}
+    Mesh: {fileID: 0}
+    Soundness: 3
+    Time: 0
+    Quest: 
+    Hunger: 0
+  - Name: Recipe
+    Type: 1
+    Sender: 
+    Receiver: 
+    Desc: 
+    Weight: 1
+    Icon: {fileID: 0}
+    Mesh: {fileID: 0}
+    Soundness: 3
+    Time: 0
+    Quest: 
+    Hunger: 0
+  - Name: Dried Herbs
+    Type: 1
+    Sender: 
+    Receiver: 
+    Desc: 
+    Weight: 3
+    Icon: {fileID: 0}
+    Mesh: {fileID: 0}
+    Soundness: 2
+    Time: 0
+    Quest: 
+    Hunger: 0
+  - Name: Enchanted Flower
+    Type: 1
+    Sender: 
+    Receiver: 
+    Desc: 
+    Weight: 5
+    Icon: {fileID: 0}
+    Mesh: {fileID: 0}
+    Soundness: 5
+    Time: 0
+    Quest: 
+    Hunger: 0
